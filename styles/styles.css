@@ -771,6 +771,9 @@ section{
     .section{
         padding: 2rem 2.5rem;
     }
+    .sec3{
+        padding: 2rem 5%;
+    }
     .sec1{
         padding:0;
     }
