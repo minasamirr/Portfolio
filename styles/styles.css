@@ -651,54 +651,8 @@ section{
 }
 
 
-/* @import './media.css'; */
-@media screen and (max-width: 600px) {
-    .theme-btn{
-        width: 50px;
-        height: 50px;
-        right: 5%;
-    }
-    .section{
-        padding: 2rem 2.5rem;
-    }
-    .sec1{
-        padding:0;
-    }
-    .active{
-        animation: scaleAnimationrev 0.7s;
-    }
-    .about-container{
-        flex-wrap: wrap;
-    }
-    .about-container .right-about{
-        padding-top: 2.5rem;
-        width: 90%;
-    }
-    .about-container .left-about{
-        padding-right: 0;
-        width: 90%;
-    }
-    .about-container .left-about p{
-        padding-left: 0;
-    }
-    .about-container .right-about .about-item{
-        height: auto;
-        width: 49%;
-    }
-    .timeline , .portfolios{
-        padding: 0 0 6rem 2rem;
-    }
-    .timeline .timeline-item{
-        width: 95%;
-    }
-    .main-title h2{
-        font-size: 2rem;
-    }
-    .main-title h2 span, .main-title h2 .bg-text{
-        font-size: 3rem;
-    }
-}
 
+/* @import './media.css'; */
 @media screen and (max-width: 1432px) {
     header{
         padding: 0 !important;
@@ -804,6 +758,47 @@ section{
         padding: 7rem 3rem;
     }
     .about-status .progress-bars .progress-bar , .portfolios .portfolio-item{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .theme-btn{
+        width: 50px;
+        height: 50px;
+        right: 5%;
+    }
+    .section{
+        padding: 2rem 2.5rem;
+    }
+    .sec1{
+        padding:0;
+    }
+    .active{
+        animation: scaleAnimationrev 0.7s;
+    }
+    .about-container{
+        flex-wrap: wrap;
+    }
+    .about-container .right-about{
+        padding-top: 2.5rem;
+        width: 90%;
+    }
+    .about-container .left-about{
+        padding-right: 0;
+        width: 90%;
+    }
+    .about-container .left-about p{
+        padding-left: 0;
+    }
+    .about-container .right-about .about-item{
+        height: auto;
+        width: 49%;
+    }
+    .timeline , .portfolios{
+        padding: 0 0 6rem 2rem;
+    }
+    .timeline .timeline-item{
         width: 95%;
     }
 }
