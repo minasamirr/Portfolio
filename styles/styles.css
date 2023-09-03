@@ -241,10 +241,6 @@ section{
     padding: 1rem;
     color: var(--color-grey-1);
 }
-.about-container .left-about H4{
-    font-size: 1.8rem;
-    text-transform: uppercase;
-}
 .about-container .right-about{
     width: 50%;
     display: flex;
