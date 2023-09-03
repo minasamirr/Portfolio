@@ -230,7 +230,7 @@ section{
 /* About */
 .about-container{
     display: flex;
-    padding: 0 0 5rem 0.6rem;
+    padding: 0 0 5rem 0;
 }
 .about-container .left-about{
     width: 50%;
@@ -489,7 +489,6 @@ section{
 }
 .contact-content-con .left-contact{
     flex: 2;
-    padding-left: 0.6rem;
 }
 .contact-content-con .left-contact h4 {
     margin-top: 1rem;
@@ -783,6 +782,7 @@ section{
     }
     .about-container{
         flex-wrap: wrap;
+        padding: 0 0 5rem 0.6rem;
     }
     .about-container .right-about{
         padding-top: 2.5rem;
@@ -804,5 +804,8 @@ section{
     }
     .timeline .timeline-item{
         width: 95%;
+    }
+    .contact-content-con .left-contact{
+        padding-left: 0.6rem;
     }
 }
