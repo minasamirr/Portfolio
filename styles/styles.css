@@ -498,12 +498,11 @@ section{
 .contact-content-con .left-contact .contact-info .contact-item{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
-.contact-content-con .left-contact .contact-info .contact-item p{
+/* .contact-content-con .left-contact .contact-info .contact-item p{
     margin: .3rem 0 !important;
     padding: 0 !important;
-}
+} */
 .contact-content-con .left-contact .contact-info .contact-item .icon{
     display: grid;
     grid-template-columns: 40px 1fr;
@@ -818,5 +817,8 @@ section{
     }
     .contact-form{
         padding-bottom: 6rem;
+    }
+    .contact-content-con .left-contact .contact-info .contact-item{
+        font-size: 0.8rem;
     }
 }
