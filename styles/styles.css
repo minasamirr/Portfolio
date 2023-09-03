@@ -713,7 +713,7 @@ section{
         min-height: 100vh;
     }
     .header-content{
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
         overflow: scroll;
         padding-bottom: 6rem;
     }
