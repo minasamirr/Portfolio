@@ -769,9 +769,12 @@ section{
         right: 5%;
     }
     .section{
-        padding: 2rem 3rem;
+        padding: 2rem;
     }
     .sec3{
+        padding: 2rem 4.5%;
+    }
+    .sec4{
         padding: 2rem 4.5%;
     }
     .sec1{
@@ -797,7 +800,7 @@ section{
     }
     .about-container .right-about .about-item{
         height: auto;
-        width: 49%;
+        width: 100%;
     }
     .timeline , .portfolios{
         padding: 0 0 6rem 2rem;
@@ -807,5 +810,17 @@ section{
     }
     .contact-content-con .left-contact{
         padding-left: 0.6rem;
+    }
+    .main-title h2, .main-title h2 span{
+        font-size: 2.5rem;
+    }
+    .main-title h2 .bg-text{
+        font-size: 3.5rem;
+    }
+    .portfolios{
+        padding: 0 0 6rem 1rem;
+    }
+    .contact-form{
+        padding-bottom: 6rem;
     }
 }
