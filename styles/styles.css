@@ -820,5 +820,6 @@ section{
     }
     .contact-content-con .left-contact .contact-info .contact-item{
         font-size: 0.8rem;
+        margin: 1rem 0;
     }
 }
